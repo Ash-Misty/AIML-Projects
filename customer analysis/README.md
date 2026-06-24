@@ -125,3 +125,87 @@ customer analysis/
 ├── feature_importance.csv
 ├── rfm_data.csv
 └── model.pkl
+
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ash-Misty/AIML-Projects.git
+cd AIML-Projects
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd "customer analysis"
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install streamlit pandas plotly scikit-learn
+```
+
+### 4. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# Usage Guide
+
+## Dataset Overview
+
+Explore the cleaned dataset, summary statistics, and feature distributions.
+
+## Customer Segmentation
+
+View how customers are distributed across clusters and compare segment behavior.
+
+## Purchase Prediction
+
+Enter customer details to predict whether the customer is likely to be a high-value customer.
+
+## Model Performance
+
+Review model accuracy, ROC-AUC score, and feature importance.
+
+## Business Insights
+
+Use customer segment insights to design targeted retention and marketing strategies.
+
+---
+
+# Example Business Use Cases
+
+- Build VIP loyalty campaigns for high-value customers.
+- Trigger win-back campaigns for at-risk customers.
+- Offer discounts or bundles to price-sensitive buyers.
+- Improve onboarding strategies for one-time buyers.
+
+---
+
+# Notes
+
+- The application expects the following files to be present in the same directory as `app.py`:
+  - `model.pkl`
+  - `rfm_data.csv`
+  - `feature_importance.csv`
+- The dashboard is optimized for storytelling and stakeholder presentations.
+- Model predictions and insights are intended for analytical and educational purposes.
+
+---
+
+# Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- scikit-learn
+- K-Means Clustering
+- Random Forest
