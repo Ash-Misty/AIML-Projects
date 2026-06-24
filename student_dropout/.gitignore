@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+
+# VS Code settings (optional)
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained model files (usually generated)
+student_dropout_ann.keras

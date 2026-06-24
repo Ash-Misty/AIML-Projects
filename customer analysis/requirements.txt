@@ -1,0 +1,7 @@
+Python
+Streamlit
+Pandas
+Plotly
+scikit-learn
+KMeans
+Random Forest
